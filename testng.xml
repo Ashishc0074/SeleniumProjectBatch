@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="SeleniumProjectBatch.AdvancePriority"/>
+      <class name="SeleniumProjectBatch.Testscript1"/>
+      <class name="SeleniumProjectBatch.TestngDemo"/>
+      <class name="SeleniumProjectBatch.InvocationCountDemo"/>
+      <class name="SeleniumProjectBatch.TestScript"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
